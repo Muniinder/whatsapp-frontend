@@ -1,0 +1,367 @@
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(204,204,204); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.left-wrapper{
+	position: fixed;
+	border-right: 1px solid grey; 
+}
+.container-fluid{
+	margin : 0 0 0 0;
+	/*border: 1px solid blue;*/
+	background-color: #EEEEEE;
+}
+
+.left-wrapper{
+	/*border: 1px solid green;*/
+	width: 30.55%;
+}
+
+
+/*-------------------------------LEFT NAV----------------------*/
+.left-wrapper a{
+	text-decoration: none;
+	color: black;
+}
+ a:hover{
+	color: #2db300;
+	background-color: blue;
+	font-size: 15px;
+}
+
+.left-nav{
+	margin : 0 0 0 0 ;
+}
+.navGlyPos{
+	margin: 12px 22px 0 0 ;
+	font-size: 20px;
+	color: #767D81;
+}
+.dropdown .navGlyPos{
+	margin:5px 22px 0 0;
+	padding: 0;
+}
+.dropdown-menu{
+	min-width: 50px;
+}
+.branding-pic{
+	margin: 5px 0 5px 0;
+	/*border: 1px solid black;*/
+	min-height: 50px;
+}
+.searchbar{
+	margin: 5px 5px 5px 5px;
+}
+
+
+
+
+.bgcolor{
+	background-color: #EEEEEE;	
+	
+}
+.color{
+	background-color: #EEEEEE;	
+}
+
+
+
+.leftSearch{
+	background-color: #FBFBFB;
+	border-bottom: 0.5px solid #EBEBEB;
+}
+/*---------------------chatssssssss-----------*/
+
+.row{
+	/*border: 1px solid red;*/
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+.chats{
+	min-height: 70px;
+	background-color: white;
+}
+.active{
+	background-color: #D1D2D2;
+	color: #2db300;
+}
+.chatTitle{
+	margin-left: 2px;
+}
+.col-md-10 h4{
+	font-size: 1.735rem;
+}
+.col-md-10 {
+	border-bottom: 0.5px solid #D1D2D2;
+}
+
+.chat-section{
+	height:83vh;
+    width: auto;
+	overflow-y: scroll;
+}
+
+
+/*-----------------------------------------RIGHT WRAPPER---------------------------------------------------------------*/
+
+.right-wrapper{
+	/*border: 1px solid green;*/
+	width: 69.45%;
+	margin-left: 30.55%;
+	
+}
+.branding-right-pic{
+	margin: 5px 0 5px 0;
+	/*border: 1px solid black;*/
+	min-height: 50px;
+}
+.bottom-bar{
+	position: fixed;
+	bottom: 0;
+/*	border: 1px solid grey;*/
+	padding: 5px;
+	background-color: #F5F1EE;
+}
+.navGlyPosRight{
+	margin: 12px 22px 0 0 ;
+	font-size: 20px;
+	color: #767D81;
+}
+.formPos{
+	margin-top: 6px;
+}
+
+
+
+
+.bg{
+	background: url("img/whatsapp2.jpg");
+	min-height: 80vh;
+	opacity: 0.7;
+	
+}
+.bgChild{
+	background: transparent;
+	height: 80vh;
+	overflow-y: scroll;
+	width: 100%;
+
+	margin: auto;
+
+}
+.dis{
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	overflow: hidden;
+	width: 90%;
+	margin: auto;
+	background: transparent;
+}
+.panel{
+	display: inline-block;
+	margin: 10px;
+	max-width: 400px;
+}
+
+.chat-pos{
+	width: 100%;
+}
+.right-bottom-type{
+	margin: 13px 0  0 0 ;
+}
+
+
+
+
+/*-------------------------------------------------------PROFILE PIC------------------------------------------------------------------------------------------------------------*/
+
+.prof{
+	min-height: 17.5vh;
+	background-color: #00BFA5;
+
+}
+.profImg{
+	margin: 20px;
+
+}
+.prof a:hover{
+	text-decoration : none;
+	color: white;
+	background-color: #00BFA5;
+}
+a:hover{
+	background-color: transparent;
+	text-decoration :none;
+}
+
+
+/*--------------------------------------------------------------------OPEN PAGE------------------------------------------------*/
+.open{
+	background-color: #F7F9FA;
+}
+.inside-right{
+	height: 100vh;
+	width: 70%;
+	margin: 0 auto;
+	background-color: #F7F9FA;
+}
+.img-main{
+	margin: 50px;
+	
+}
+.img-main .img-responsive{
+	margin: auto;
+	width: 50%;
+}
+.main-content-right{
+	text-align: center;
+	width: 65%;
+	margin : auto;
+}
+.prof-scroll{
+	overflow-y: scroll;
+	height: 80vh;
+}
+
+/*-----------------------------------------------------MEDIA QUERIES-----------------------------------------------------*/
+@media screen and (min-width: 469px){
+	.wrap-mob-nav{
+		display: none;
+		min-height: 80px;
+	}
+}
+
+@media screen and (min-width: 469px ) and (max-width: 768px){
+	.left-wrapper{
+		width: 60%;
+		z-index: 4;
+	}
+	.chat-section img{
+		width: 40px;
+	}
+	.col-md-2{
+		width: 17%;
+	}
+	.col-md-10 {
+		width: 80%;
+	}
+	.right-wrapper{
+		width: 40%;
+		margin-left: 60%;
+	}
+	.navGlyPosRight{
+		display: none;
+	}
+	.open .img-main{
+		margin : 50% 0 0 0;
+		width: 100%;
+	}
+	.main-content-right h3{
+		font-size: 1.65rem;
+	}
+	.main-content-right{
+		width: 100%;
+		margin: 0;
+	}
+
+}
+@media screen and (min-width: 768px ) and (max-width: 956px){
+	.left-wrapper{
+		width: 41%;
+	}
+	.right-wrapper{
+		width: 59%;
+		margin-left: 41%;
+	}
+
+}
+
+
+@media screen and (max-width: 468px){
+	.left-wrapper{
+		width: 100%;
+		z-index: 1;
+	}
+	.right-wrapper{
+		width: 0;
+		display: none;
+		z-index: 0;
+	}
+	.col-md-10{
+		/*border: 1px solid blue;*/
+		width: 70%;
+	}
+	.col-md-2{
+		/*border: 1px solid red;*/
+		width: auto;
+	}
+	.left-nav{
+		display: none;
+	}
+	.leftSearch{
+		display: none;
+	}
+
+
+	.left-mob-nav{
+		width: 100%;
+		height: auto;
+		min-height: 70px;
+		background-color: #17383A;
+
+	}
+	.branding-mob{
+		height: auto;
+		/*display: flex;*/
+		flex-direction: row;
+		justify-content: ;
+		background-color: #17383A;
+		color: white;
+	}
+	.mob-view{
+		
+		border: 1px solid lue;
+		margin: 2px;
+		width: auto;
+		right: 0;
+	}
+	.mob-view .bg-mob-col{
+		background-color: #17383A;
+		border: none;
+		color: white;
+	}
+	.main-nav-mob{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		text-align: center;
+		background-color: #17383A;
+	}
+	.inside-main-cont{
+		background-color: #17383A;
+		width: 30%;
+		color: white;
+	}
+
+	.right-wrapper-msg{
+		width: 100%;
+		margin:0;
+	}
+	
+}
